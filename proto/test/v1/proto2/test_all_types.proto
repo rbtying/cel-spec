@@ -117,4 +117,8 @@ enum GlobalEnum {
   GOO = 0;
   GAR = 1;
   GAZ = 2;
+  // Note: this value is intentionally non-sequential so index() and ordinal()
+  // return different values than getNumber().
+  GUX = 4;
+  GUUX = 3;
 }
